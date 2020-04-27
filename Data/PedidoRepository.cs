@@ -13,7 +13,7 @@ namespace Data
         {
             int ret;
           
-            using (var conexaoBD = new SqlConnection("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=TesteDapper;Persist Security Info=False;User ID=sa;Password=Avivatec@123;MultipleActiveResultSets=True;"))
+            using (var conexaoBD = new SqlConnection("Data Source=<ConnectioString>"))
             {
                 try
                 {

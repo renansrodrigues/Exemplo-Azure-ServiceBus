@@ -11,8 +11,8 @@ namespace ServiceBusTeste
     class Program
     {
 
-        const string ServiceBusConnectionString = "ConnectionString";
-        const string QueueName = "QueueName";
+        const string ServiceBusConnectionString = "<ConnectionString>";
+        const string QueueName = "<QueueName>";
         static IQueueClient queueClient;
         public static async Task Main(string[] args)
         {

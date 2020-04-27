@@ -12,8 +12,8 @@ namespace ServiceBusReceiveMessage
     class Program
     {
 
-        const string ServiceBusConnectionString = "ConnectionString";
-        const string QueueName = "QueueName";
+        const string ServiceBusConnectionString = "<ConnectionString>";
+        const string QueueName = "<QueueName>";
         static IQueueClient queueClient;
 
         static void Main(string[] args)
